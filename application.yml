@@ -1,0 +1,14 @@
+﻿spring:
+  profiles:
+    active:
+    - dev
+---
+spring:
+  profiles: dev
+  application:
+    name: microservicecloud-config-atsun-dev
+---
+spring:
+  profiles: test
+  application:
+    name: microservicecloud-config-atsun-test
